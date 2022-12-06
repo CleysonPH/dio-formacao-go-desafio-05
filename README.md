@@ -8,14 +8,8 @@ Um aluno (você) do curso de Linguagem Go escreveu um código que representa as 
 
 ## Como executar
 
-Para executar o programa, primeiro é necessario baixar as dependências do projeto. Para isso, execute o comando abaixo:
+Para executar os testes, basta executar o comando abaixo:
 
 ```bash
-go mod download
-```
-
-Após baixar as dependências, execute o comando abaixo para executar o programa:
-
-```bash
-go run main.go
+go test -v
 ```
